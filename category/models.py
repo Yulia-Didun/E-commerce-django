@@ -5,6 +5,7 @@ Classes:
 - Category: Model representing a product category.
 """
 from django.db import models
+from django.urls import reverse
 
 # Create your models here.
 
@@ -19,6 +20,10 @@ class Category(models.Model):
         """Meta class for configuring the behavior of the Category model."""
         verbose_name = 'category'
         verbose_name_plural = 'categories'
+
+    def get_url(self):
+        return reverse('products_by_category', args=[self.slug])
+
 
     def __str__(self):
         return str(self.category_name)

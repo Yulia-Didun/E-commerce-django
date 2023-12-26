@@ -450,7 +450,7 @@ p:last-child {
   color: #343a40;
 }
 .widget-header a:hover {
-  color: #3167eb;
+  color: #846654;
 }
 .widget-header i {
   color: #969696;
@@ -467,7 +467,7 @@ p:last-child {
   right: -10px;
 }
 .widget-header:hover i {
-  color: #3167eb;
+  color: #846654;
 }
 
 /* desktop only */
@@ -800,7 +800,7 @@ ul.row, ul.row-sm {
   color: #343a40;
 }
 .list-menu a:hover {
-  color: #3167eb;
+  color: #846654;
 }
 
 .cols-two {
@@ -823,7 +823,7 @@ a[class*=card] {
   color: initial;
 }
 a[class*=card]:hover .title {
-  color: #3167eb;
+  color: #846654;
 }
 
 /* BASE STYLE FOR PRODUCT ITEM */
@@ -832,7 +832,7 @@ a[class*=card]:hover .title {
   display: block;
 }
 [class*=card-product] a.title:hover {
-  color: #3167eb;
+  color: #846654;
 }
 [class*=card-product] .badge {
   top: 10px;
@@ -847,9 +847,10 @@ a[class*=card]:hover .title {
   position: relative;
 }
 [class*=card-product] .img-wrap img {
+  padding: 0px 0px 0px 0px ;
   height: 100%;
   max-width: 100%;
-  width: auto;
+  width: 100%;
   display: inline-block;
   -o-object-fit: cover;
      object-fit: cover;
@@ -884,7 +885,7 @@ a[class*=card]:hover .title {
   color: #ccc;
 }
 .card-product-grid .topbar a:hover {
-  color: #3167eb;
+  color: #0048ff;
 }
 .card-product-grid .fix-height {
   height: 80px;
@@ -1187,7 +1188,7 @@ a[class*=card]:hover .title {
   margin-top: 7px;
 }
 .tracking-wrap .step.active .icon {
-  background: #3167eb;
+  background: #0048ff;
   color: #fff;
 }
 .tracking-wrap .step.active .text {
@@ -1324,7 +1325,7 @@ a[class*=card]:hover .title {
   left: 18px;
 }
 .js-check.active {
-  border-color: #3167eb;
+  border-color: #846654;
 }
 .js-check:hover:not(.active) {
   border-color: #ccc;
