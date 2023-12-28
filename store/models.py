@@ -1,6 +1,4 @@
-"""
-Django models for managing products.
-"""
+"""Django models for managing products."""
 from django.db import models
 from django.urls import reverse
 from category.models import Category
@@ -21,6 +19,7 @@ class Product(models.Model):
     modified_at = models.DateTimeField(auto_now=True)
 
     def get_url(self):
+        """Returns the URL for the product."""
         return reverse('product_detail', args=[self.category.slug, self.slug])
 
     def __str__(self):
