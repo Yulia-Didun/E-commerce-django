@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="section-content padding-y bg">
+	<div class="container">
+
+		<div class="row">
+			<aside class="col-lg-6">
+				<div class="card">
+                    <div class="card-body">
+                        <h4 class='card-title mb-4'>Адреса доставки</h4>
+                        <form action="">
+                    </div>
+				</div> <!-- card.// -->
+			</aside> <!-- col.// -->
+
+
+			<aside class="col-lg-6">
+
+				<div class="card">
+					<div class="card-body">
+						
+						<a href="./place-order.html" class="btn btn-primary btn-block"> Замовити </a>
+						<a href="{% url 'store' %}" class="btn btn-light btn-block">Продовжити покупки</a>
+					</div> <!-- card-body.// -->
+				</div> <!-- card.// -->
+			</aside> <!-- col.// -->
+		</div> <!-- row.// -->
+	</div> <!-- container .//  -->
+</section>
+<!-- ========================= SECTION CONTENT END// ========================= -->
+
+{% endblock %}
